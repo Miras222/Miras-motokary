@@ -151,7 +151,20 @@ nav ul li a:active {
     width: 100%;
 }
 
-.our-service img {
+.our-service img, .photo-gallery img {
     border-radius: 15px;
     box-shadow: 5px 5px 5px #555;
+}
+
+
+/*********** photo-gallery ***********/
+
+.photo-gallery ul {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.photo-gallery ul li img {
+    width: 100%;
 }

@@ -141,3 +141,17 @@ nav ul li a:active {
     font-size: 18px;
     color: #666;
 }
+
+.our-service-photo {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.our-service-photo img {
+    width: 100%;
+}
+
+.our-service img {
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #555;
+}

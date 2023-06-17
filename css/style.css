@@ -116,3 +116,28 @@ nav ul li a:active {
 .empty-btn {
     margin-left: 15px;
 }
+
+/******** our-service *******/
+
+.section-heading {
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 39px;
+    color: #666;
+}
+
+.section-heading:after {
+    content: "";
+    display: block;
+    border-bottom: 2px solid #e7362b;
+    width: 180px;
+    margin: 15px auto 0 auto;
+}
+
+.section-text {
+    margin-top: 20px;
+    padding: 0 10px;
+    font-size: 18px;
+    color: #666;
+}

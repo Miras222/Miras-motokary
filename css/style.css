@@ -172,3 +172,31 @@ nav ul li a:active {
 .photo-gallery ul li img {
     width: 100%;
 }
+
+/********* cost *********/
+
+.cost .paragraphs {
+    margin: 30px 10px 20px 10px;
+}
+
+.cost article {
+    height: 150px;
+    background-color: #e3f37c;
+    text-align: center;
+    border: 2px solid #d2ec2e;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #555;
+}
+
+.cost .article-text {
+    padding-top: 20px;
+}
+
+.cost h3 {
+    text-transform: uppercase;
+    font-size: 29px;
+}
+
+.cost p {
+    font-size: 21px;
+}

@@ -17,6 +17,14 @@
     }
 }
 
+
+@media only screen and (max-width: 800px) {
+    .photo-gallery ul li {
+        width: 49%;
+    }
+}
+
+
 @media only screen and (max-width: 710px) {
 
     .paragraphs article {
@@ -44,6 +52,14 @@
         margin-top: 15px;
     }
 
+}
+
+@media only screen and (max-width: 500px) {
+    
+    .photo-gallery ul li {
+        width: 98%;
+    }
+       
 }
 
 @media only screen and (max-width: 480px) {

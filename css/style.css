@@ -151,7 +151,7 @@ nav ul li a:active {
     width: 100%;
 }
 
-.our-service img, .photo-gallery img {
+.our-service img, .photo-gallery img, .voucher img {
     border-radius: 15px;
     box-shadow: 5px 5px 5px #555;
 }
@@ -199,4 +199,16 @@ nav ul li a:active {
 
 .cost p {
     font-size: 21px;
+}
+
+/****** voucher *********/
+
+.voucher .voucher-img {
+    margin: 20px auto;
+    max-width: 700px;
+}
+
+.voucher-img img {
+    width: 100%;
+    max-height: 400px;
 }

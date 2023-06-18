@@ -212,3 +212,68 @@ nav ul li a:active {
     width: 100%;
     max-height: 400px;
 }
+
+/******* reference *******/
+
+.reference-bg {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/motokary-nahled.jpg);
+    background-size: cover;
+}
+
+.ref-heading {
+    color: #fff;
+}
+
+.ref-heading:after {
+    content: "";
+    display: block;
+    width: 180px;
+    border-bottom: 2px solid #fff;
+    margin: 15px auto 0 auto;
+}
+
+.customer-reference {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.customer-reference p {
+    color: #fff;
+    font-style: italic;
+    padding: 0;
+}
+
+.photo-name {
+    margin-top: 15px;
+}
+
+.photo-name img {
+    width: 50px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 15px;
+}
+
+.photo-name p {
+    padding-left: 30px;
+    color: #fff;
+    padding-top: 15px;
+    font-style: normal;
+}
+
+.review-1 {
+    margin-top: 96px;
+}
+
+.review-3 {
+    margin-top: 123px;
+}
+
+
+/***** clearfix *******/
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}

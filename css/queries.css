@@ -17,6 +17,18 @@
     }
 }
 
+@media only screen and (max-width: 710px) {
+
+    .paragraphs article {
+        width: 98%;
+    }
+
+    .paragraphs .second {
+        margin-left: 0;
+    }
+
+}
+
 @media only screen and (max-width: 691px) {
 
     .customer-reference .one-reference {
@@ -30,6 +42,26 @@
     
     .review-1 {
         margin-top: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+    .paragraphs article {
+        margin-bottom: 10px;
+    }    
+
+}
+
+@media only screen and (max-width: 365px) {
+
+    .cost h3 {
+        font-size: 20px;
+    }
+
+    .cost p {
+        font-size: 17px;
     }
 
 }

@@ -1,0 +1,35 @@
+@media only screen and (max-width: 1045px) {
+
+    .customer-reference .one-reference {
+        width: 49%;
+    }
+
+    .last-reference p, .last-reference .review-3 {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 1017px) and (min-width: 904px) {
+
+    .review-1 {
+        margin-top: 72px;
+    }
+}
+
+@media only screen and (max-width: 691px) {
+
+    .customer-reference .one-reference {
+        width: 98%;
+    }
+    
+    .customer-reference .second-reference {
+        margin-left: 0;
+        margin-top: 40px;
+    }
+    
+    .review-1 {
+        margin-top: 15px;
+    }
+
+}

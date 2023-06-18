@@ -1,6 +1,7 @@
 (function($){
     $(function(){
         
+        /******* Scroll navigation items to sections ***********/
         $(".jq--scroll-our-service").click(function(){
             $("html, body").animate({scrollTop: $(".jq--our-service").offset().top}, 1000);
         });
@@ -25,6 +26,8 @@
             $("html, body").animate({scrollTop: $(".jq--contact").offset().top}, 1900);
         });
         
+        /****** Scroll buttons to sections ********/
+
         $(".jq--scroll-first-btn").click(function(){
             $("html, body").animate({scrollTop: $(".jq--photo-gallery").offset().top}, 1000);
         });
@@ -33,13 +36,16 @@
             $("html, body").animate({scrollTop: $(".jq--contact").offset().top}, 1700);
         });
         
+
+        /***** Mobile navigation ******/
+
         $(".jq--nav-icon").click(function(){
             
-            $(".nav-background").fadeToggle();
+            $(".navbar-bg").fadeToggle();
             $(".mobile-nav-back").slideToggle();
             $("nav ul").slideToggle();
             
-        })
+        });
         
         $(".jq--image-hamburger").click(function(){
             

@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="css/queries.css">
     <link rel="stylesheet" href="others/grid.css">
 
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+
     <script src="js/script.js"></script>
     <link rel="stylesheet" href="css/lightbox.min.css" type="text/css" media="screen">
     <script src="js/lightbox-plus-jquery.min.js"></script>
@@ -20,22 +23,22 @@
             <nav class="row">
                 <ul>
                     <li>
-                        <a href="#">Naše služby</a>
+                        <a href="#" class="jq--scroll-our-service">Naše služby</a>
                     </li>
                     <li>
-                        <a href="#">Fotogalerie</a>
+                        <a href="#" class="jq--scroll-photo-gallery">Fotogalerie</a>
                     </li>
                     <li>
-                        <a href="#">Cena</a>
+                        <a href="#" class="jq--scroll-cost">Cena</a>
                     </li>
                     <li>
-                        <a href="#">Poukaz</a>
+                        <a href="#" class="jq--scroll-voucher">Poukaz</a>
                     </li>
                     <li>
-                        <a href="#">Reference</a>
+                        <a href="#" class="jq--scroll-reference">Reference</a>
                     </li>
                     <li>
-                        <a href="#">Kontakt</a>
+                        <a href="#" class="jq--scroll-contact">Kontakt</a>
                     </li>
                 </ul>
             </nav>
@@ -45,13 +48,13 @@
             <h1>
                 Nechte v sobě probudit adrenalin
             </h1>
-            <a href="#" class="full-btn btn">Naše Fotografie</a>
-            <a href="#" class="empty-btn btn">Kontaktujte nás</a>
+            <a href="#" class="full-btn btn jq--scroll-first-btn">Naše Fotografie</a>
+            <a href="#" class="empty-btn btn jq--scroll-second-btn">Kontaktujte nás</a>
         </div>
     </header>
 
     <main>
-        <section class="our-service row">
+        <section class="our-service jq--our-service row">
             <h2 class="section-heading">
                 Naše služby
             </h2>
@@ -69,7 +72,7 @@
             </div>
         </section>
 
-        <section class="photo-gallery row">
+        <section class="photo-gallery jq--photo-gallery row">
             <h2 class="section-heading">
                 Fotogalerie
             </h2>
@@ -112,7 +115,7 @@
             </ul>
         </section>
 
-        <section class="cost row">
+        <section class="cost jq--cost row">
             <h2 class="section-heading">
                 Ceník
             </h2>
@@ -167,7 +170,7 @@
             </div>
         </section>
 
-        <section class="voucher row">
+        <section class="voucher jq--voucher row">
             <h2 class="section-heading">
                 Poukaz
             </h2>
@@ -180,7 +183,7 @@
         </section>
 
         <div class="reference-bg">
-        <section class="reference row">
+        <section class="reference jq--reference row">
             <h2 class="section-heading ref-heading">
                 Co o nás píšou zákazníci
             </h2>
@@ -221,7 +224,7 @@
         </section>
         </div>
 
-        <section class="contact row">
+        <section class="contact jq--contact row">
             <h2 class="section-heading">
                 Kontaktujte nás
             </h2>

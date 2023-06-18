@@ -14,15 +14,15 @@
         });
         
         $(".jq--scroll-voucher").click(function(){
-            $("html, body").animate({scrollTop: $(".jq--voucher").offset().top}, 1400);
+            $("html, body").animate({scrollTop: $(".jq--voucher").offset().top}, 1500);
         });
         
         $(".jq--scroll-reference").click(function(){
-            $("html, body").animate({scrollTop: $(".jq--reference").offset().top}, 1500);
+            $("html, body").animate({scrollTop: $(".jq--reference").offset().top}, 1700);
         });
         
         $(".jq--scroll-contact").click(function(){
-            $("html, body").animate({scrollTop: $(".jq--contact").offset().top}, 1700);
+            $("html, body").animate({scrollTop: $(".jq--contact").offset().top}, 1900);
         });
         
         $(".jq--scroll-first-btn").click(function(){

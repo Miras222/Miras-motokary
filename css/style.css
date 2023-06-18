@@ -308,6 +308,26 @@ form input[type="submit"] {
 }
 
 
+/***** footer *******/
+
+footer {
+    background-color: #333;
+    height: 100px;
+    margin-top: 15px;
+}
+
+.footer-text {
+    width: 100%;
+    text-align: center;
+    color: #888;
+    padding-top: 10px;
+}
+
+.footer-text span {
+    margin-right: 14px;
+}
+
+
 /***** clearfix *******/
 
 .clearfix:after {

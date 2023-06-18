@@ -269,6 +269,44 @@ nav ul li a:active {
     margin-top: 123px;
 }
 
+/****** contact form ******/
+
+.contact {
+    width: 100%;
+}
+
+.contact form {
+    margin: 30px auto 20px auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+form input, form textarea {
+    width: 80%;
+    margin-bottom: 10px;
+    border: 2px solid #555;
+    border-radius: 10px;
+    padding-left: 7px;
+    box-shadow: 5px 5px 5px #555;
+    font-size: 16px;
+    font-family: Poppins;
+}
+
+form textarea {
+    margin-top: 3px;
+    height: 230px;
+    padding-top: 8px;
+}
+
+form input {
+    height: 45px;
+}
+
+form input[type="submit"] {
+    color: #fff;
+    background-color: #e7362b;
+}
+
 
 /***** clearfix *******/
 

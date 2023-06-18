@@ -29,9 +29,6 @@
         display: block;
     }
 
-    .navbar-bg {
-        /* display: none; */
-    }
 
     .mobile-nav-back {
         height: 238px;
@@ -51,6 +48,11 @@
 
     nav ul {
         display: none;
+    }
+
+    nav ul li a:hover,
+    nav ul li a:active {
+    border-bottom: 2px solid transparent;
     }
 
 }
